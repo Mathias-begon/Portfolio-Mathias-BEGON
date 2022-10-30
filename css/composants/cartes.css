@@ -4,6 +4,7 @@
 
 .Grid {
     height: min-content 900px;
+    grid-gap: 15px;
 }
 
 
