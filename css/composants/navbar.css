@@ -1,0 +1,13 @@
+.navbar {
+    background-color: rgb(4, 4, 4);
+    display: flex;
+    justify-content: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.liens{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+

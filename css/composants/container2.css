@@ -1,0 +1,68 @@
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+
+.images-anim3 p {
+    opacity: 0;
+    top: 0;
+    left: 0;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50%;
+}
+
+.images-anim3:hover p {
+    opacity: 1;
+}
+
+.images-anim3 {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../assets/image/Game-design1.png") ;
+    background-size: cover;
+}
+
+.images-anim3:hover {
+    transition-duration: 0.5s;
+    opacity: 60%;
+}
+
+
+
+.images-anim6 p {
+    opacity: 0;
+    top: 0;
+    left: 0;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50%;
+}
+
+.images-anim6:hover p {
+    opacity: 1;
+}
+
+.images-anim6 {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../assets/image/Ppt Marketing.png") ;
+    background-size: cover;
+}
+
+.images-anim6:hover {
+    transition-duration: 0.5s;
+    opacity: 60%;
+}
+
+.grid .white {
+    color: white;
+}

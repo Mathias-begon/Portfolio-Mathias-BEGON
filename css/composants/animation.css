@@ -1,0 +1,44 @@
+/* PARTIE ANIMATION */
+  
+  /*lorsque l'on survol l'image*/
+  img:hover {
+    opacity: 0.8;
+    transition: opacity 0.9s;
+    cursor: pointer;
+  }
+  
+  
+  /*LE STYLE DU TEXTE au survol*/
+  .survol {
+    position: absolute;
+    margin-left: 95%;
+    bottom: 20%;
+    z-index: 10;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    opacity: 0; /*opacity 0 car le texte ne doit pas être affiché avant le hover*/
+  }
+  
+  /*lorsque l'on survol l'image on rend le texte visible avec opacity: 1*/
+  .box:hover .survol {
+    opacity: 1; /*le texte passe à opacity 1 et devient visible*/
+    transition: opacity 0.9s;
+  }
+  
+   
+  /*flexbox pour positionner l'image*/
+  .conteneur-flexbox {
+    width: 300px;
+    padding: 0px 0;
+    align-items: center;
+  }
+  
+  
+  .box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+  }
+
+
+/*FIN PARTIE ANIMATION*/

@@ -1,0 +1,144 @@
+.carte-produit .flexbox h2 {
+    font-weight: bold;
+}
+
+.Grid {
+    height: min-content 900px;
+}
+
+
+
+.carte-produit .flexbox {
+    padding-left: 30%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 50%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    padding: 30px;
+}
+
+.carte-produit .h2 {
+    font-family: 'Work Sans', sans-serif;
+    width: 80%;
+    padding: 20px;
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+
+
+.images-anim p {
+    opacity: 0;
+    top: 0;
+    left: 0;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50%;
+}
+
+.images-anim:hover p {
+    opacity: 1;
+}
+
+.images-anim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../assets/image/Blender_rendu.png");
+    background-size: cover;
+}
+.images-anim:hover {
+    transition-duration: 0.5s;
+    opacity: 60%;
+    cursor: pointer;
+}
+
+
+.images-anim2 p {
+    opacity: 0;
+    top: 0;
+    left: 0;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50%;
+}
+
+.images-anim2:hover p {
+    opacity: 1;
+}
+
+.images-anim2 {
+    background-image: url("../../assets/image/Blender_rendu.png");
+    width: auto;
+    height: 760px;
+}
+.images-anim2:hover {
+    transition-duration: 0.5s;
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.images-anim4 p {
+    opacity: 0;
+    top: 0;
+    left: 0;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50%;
+}
+
+.images-anim4:hover p {
+    opacity: 1;
+}
+
+.images-anim4 {
+    background-image: url("../../assets/image/recto.png");
+    width: auto;
+    height: 780px;
+    background-size: cover;
+    object-position: cover;
+    object-position: center;
+}
+.images-anim4:hover {
+    transition-duration: 0.5s;
+    opacity: 60%;
+    cursor: pointer;
+}
+
+
+.images-anim5 p {
+    opacity: 0;
+    top: 0;
+    left: 0;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50%;
+}
+
+.images-anim5:hover p {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.images-anim5 {
+    background-image: url("../../assets/image/verso.png");
+    background-size: cover;
+    width: auto;
+    height: 780px;
+    object-fit: cover;
+    object-position: center;
+}
+.images-anim5:hover {
+    transition-duration: 0.5s;
+    opacity: 60%;
+}
+

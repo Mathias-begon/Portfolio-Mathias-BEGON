@@ -1,0 +1,29 @@
+.footer{
+  background-color: rgb(67, 165, 239);
+  position: absolute;
+  width: 100%;
+}
+
+.footer .item {
+  text-align:center;
+}
+
+
+.footer .item.citaion {
+  opacity:0.6;
+}
+
+.footer.citation {
+  text-align:center;
+  opacity:0.3;
+  font-size:11px;
+}
+
+.footer .Apropos {
+  font-size: 116%;
+}
+
+.footer .item .Apropos {
+  font-weight: bold;
+}
+
