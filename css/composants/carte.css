@@ -1,0 +1,10 @@
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+
+

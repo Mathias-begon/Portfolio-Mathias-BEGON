@@ -5,6 +5,7 @@
 @import url(composants/cartes.css);
 @import url(composants/banner.css);
 @import url(composants/footer.css);
+@import url(composants/Responsive.css);
 
 .titre {
     background-color:rgb(244, 212, 35);
@@ -15,73 +16,9 @@
 
 }
 
-@media screen and (max-width: 900px) {
-    
-    .flexbox {
-        font-size:75% ;
-        text-align: left;
-        margin-left: 40px;
-    }
-
-    .navbar {
-        font-size: 12px;
-    }
-
-    .footer .item {
-        font-size: 74%;
-        flex-wrap: wrap;
-    }
-
-    .footer .h3 {
-        font-size: 14%;
-    }
-
-    .carte-produit {
-        font-size:110%;
-        width: 90%;
-    }
-    
-    .Grid {
-        width: auto;
-        position: relative;
-        height: auto;
-        object-fit: cover;
-        object-position: center;
-    }
-
-    .container p {
-        font-size: 250%;
-    }
-
-    .container2 p {
-        font-size: 250%;
-    }
-
-    .footer .item .item-txt {
-        font-size: 50%;
-    }
-
-}
-
-@media screen and (max-width: 500px) {
-    .Grid {
-        width: auto;
-        position: relative;
-        height: auto;
-
-    }
-}
-
 .container2 {
     max-width: 1500px;
 }
-
-@media screen and (max-width: 900px) {
-    .container {
-        grid-template-columns: 1fr;
-    }
-}
-
 
 *{
     padding: 0;
